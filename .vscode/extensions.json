@@ -1,7 +1,7 @@
 {
     "recommendations": [
         "ms-vscode.cpptools",
-        "tomphilbin.gruvbox-themes",
+        "jdinhlife.gruvbox",
         "wayou.vscode-todo-highlight",
         "slevesque.shader"
     ]

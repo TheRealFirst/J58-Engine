@@ -1,4 +1,5 @@
 #include <core/logger.h>
+#include <core/asserts.h>
 
 int main(void){
     JFATAL("A test message: %f", 3.14f);
@@ -7,5 +8,8 @@ int main(void){
     JINFO("A test message: %f", 3.14f);
     JDEBUG("A test message: %f", 3.14f);
     JTRACE("A test message: %f", 3.14f);
-    return 0; // 24:14
+
+    JASSERT(1 == 0);
+
+    return 0;
 }
