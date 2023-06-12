@@ -1,6 +1,9 @@
 {
     "files.associations": {
         "logger.h": "c",
-        "platform.h": "c"
+        "platform.h": "c",
+        "asserts.h": "c",
+        "iosfwd": "c",
+        "application.h": "c"
     }
 }
