@@ -4,6 +4,7 @@
         "platform.h": "c",
         "asserts.h": "c",
         "iosfwd": "c",
-        "application.h": "c"
+        "application.h": "c",
+        "jmemory.h": "c"
     }
 }
