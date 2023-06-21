@@ -5,6 +5,7 @@
         "asserts.h": "c",
         "iosfwd": "c",
         "application.h": "c",
-        "jmemory.h": "c"
+        "jmemory.h": "c",
+        "darray.h": "c"
     }
 }
