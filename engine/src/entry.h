@@ -28,7 +28,7 @@ int main(void){
     }
 
     if(!application_create(&game_inst)){
-        JINFO("Application failed to create!");
+        JFATAL("Application failed to create!");
         return 1;
     }
     
