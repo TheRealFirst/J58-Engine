@@ -80,7 +80,7 @@ void input_process_mouse_move(i16 x, i16 y){
     // Only process if actually different
     if(state.mouse_current.x != x || state.mouse_current.y != y){
         // NOTE: Enable this if debugging
-        //JDEBUG("Mouse pos: %i, %i!", x, y);
+        // JDEBUG("Mouse pos: %i, %i!", x, y);
 
         // Update internal state.
         state.mouse_current.x = x;
