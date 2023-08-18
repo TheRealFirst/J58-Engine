@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "ms-vscode.cpptools",
+        "jdinhlife.gruvbox",
+        "wayou.vscode-todo-highlight",
+        "slevesque.shader"
+    ]
+}
