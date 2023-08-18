@@ -6,6 +6,7 @@
         "iosfwd": "c",
         "application.h": "c",
         "jmemory.h": "c",
-        "darray.h": "c"
+        "darray.h": "c",
+        "renderer_frontend.h": "c"
     }
 }
