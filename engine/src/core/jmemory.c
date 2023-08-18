@@ -1,9 +1,9 @@
 #include "jmemory.h"
 
 #include "core/logger.h"
+#include "core/jstring.h"
 #include "platform/platform.h"
 
-// TODO: Costum string lib
 #include <string.h>
 #include <stdio.h>
 
@@ -111,6 +111,6 @@ char* get_memory_usage_str(){
         i32 lenght = snprintf(buffer + offset, 8000, "  %s: %.2f%s\n", memory_tag_strings[i], amount, unit);
         offset += lenght;
     }
-    char* out_string = _strdup(buffer);
+    char* out_string = string_duplicate(buffer);
     return out_string;
 }
